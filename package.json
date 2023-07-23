@@ -1,0 +1,25 @@
+{
+  "name": "com.dariushuang.handyxr",
+  "version": "0.0.1",
+  "displayName": "Handy XR",
+  "description": "Framework and feature library for cross platform gesture-driven XR experience development.",
+  "unity": "2021.3",
+  "keywords": [
+    "gesture recognition",
+    "hand",
+    "gesture"
+  ],
+  "author": {
+    "name": "Darius Huang",
+    "email": "sh711@duke.edu",
+    "url": "https://github.com/Dariushuangg/HandyXR"
+  },
+  "type": "framework",
+  "dependencies": {
+    "com.unity.inputsystem": "1.4.3",
+    "com.unity.modules.xr": "1.0.0",
+    "com.unity.xr.core-utils": "2.0.0",
+    "com.unity.xr.management": "4.0.1",
+    "com.unity.xr.hands": "1.1.0"
+  }
+}
