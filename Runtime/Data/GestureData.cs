@@ -57,7 +57,7 @@ public class GestureData : MonoBehaviour
         // Extract hand feature data
         GestureFeatureData rightHandData = Features.ExtractFeatures(Handedness.Right, rightHand, ExtractUsedFeature());
         GestureFeatureData leftHandData = Features.ExtractFeatures(Handedness.Left, leftHand, ExtractUsedFeature());
-        DebugText.text = rightHandData.Print() + "\n" + leftHandData.Print();   
+        // DebugText.text = rightHandData.Print() + "\n" + leftHandData.Print();   
         _RightHandFeatureBuffer.Append(rightHandData);
         _LeftHandFeatureBuffer.Append(leftHandData);
 
