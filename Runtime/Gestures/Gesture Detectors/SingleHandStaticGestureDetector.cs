@@ -6,6 +6,9 @@ public class SingleHandStaticGestureDetector : GestureDetector
 {
     public StaticGesture StaticGesture;
 
+    // Whether the gesture is detected at the previous frame
+    public bool IsGestureDetected { get; private set; }
+
     private void OnEnable()
     {
         IsDetecting = true;
@@ -21,7 +24,7 @@ public class SingleHandStaticGestureDetector : GestureDetector
         if (IsDetecting) 
         {
             GestureFeatureData featureData = StaticGesture.Handedness == Handedness.Right ? rightHandFeatureData : leftHandFeatureData;
-            StaticGesture.DetectGesture(featureData); 
+            IsGestureDetected = StaticGesture.DetectGesture(featureData); 
         }
     }
 

@@ -11,7 +11,7 @@ public abstract class Gesture : MonoBehaviour {
     /// <summary>
     /// Fired when this gesture is detected.
     /// </summary>
-    public UnityEvent OnGestureDetected = new();
+    [HideInInspector] public UnityEvent OnGestureDetected = new();
 
     public abstract bool DetectGesture(GestureFeatureData featureData);
 }
@@ -22,5 +22,9 @@ public abstract class StaticGesture : Gesture
 
 public abstract class DynamicGesture : Gesture
 {
+    /// <summary>
+    /// Fired when this gesture is terminated.
+    /// </summary>
+    [HideInInspector] public UnityEvent OnGestureTerminated = new();
 }
 

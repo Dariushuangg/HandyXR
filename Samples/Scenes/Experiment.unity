@@ -827,6 +827,9 @@ MonoBehaviour:
   OnGestureDetected:
     m_PersistentCalls:
       m_Calls: []
+  OnGestureTerminated:
+    m_PersistentCalls:
+      m_Calls: []
   IsPerforming: 0
   MaxDuration: 0.5
   Timer: {fileID: 307642194}
@@ -848,7 +851,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &313737927
 Transform:
   m_ObjectHideFlags: 0
@@ -879,6 +882,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsDetecting: 0
   DynamicGesture: {fileID: 1258999822}
+  OnGestureDetected:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGestureTerminated:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &317468306
 GameObject:
   m_ObjectHideFlags: 0
@@ -996,7 +1005,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &460429663
 Transform:
   m_ObjectHideFlags: 0
@@ -1043,7 +1052,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &570788787
 Transform:
   m_ObjectHideFlags: 0
@@ -1074,6 +1083,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsDetecting: 0
   DynamicGesture: {fileID: 1125467451}
+  OnGestureDetected:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGestureTerminated:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &725358636
 GameObject:
   m_ObjectHideFlags: 0
@@ -1090,7 +1105,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &725358637
 Transform:
   m_ObjectHideFlags: 0
@@ -1121,6 +1136,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsDetecting: 0
   DynamicGesture: {fileID: 999771081}
+  OnGestureDetected:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGestureTerminated:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &739063787
 GameObject:
   m_ObjectHideFlags: 0
@@ -1384,6 +1405,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_UseOptimizedControls: 0
+  m_Origin: {fileID: 0}
   m_LeftHandMesh: {fileID: 919132149155446097, guid: bf7151579c38e2a44be94ba8773876c1,
     type: 3}
   m_RightHandMesh: {fileID: 919132149155446097, guid: 56186ccf27ad7864681108ed88349071,
@@ -1530,6 +1552,9 @@ MonoBehaviour:
   OnGestureTerminated:
     m_PersistentCalls:
       m_Calls: []
+  OnGestureTerminated:
+    m_PersistentCalls:
+      m_Calls: []
   staticPinch: {fileID: 1738257242}
 --- !u!1 &1085439595
 GameObject:
@@ -1643,6 +1668,9 @@ MonoBehaviour:
   OnGestureDetected:
     m_PersistentCalls:
       m_Calls: []
+  OnGestureTerminated:
+    m_PersistentCalls:
+      m_Calls: []
   IsPerforming: 0
   MaxDuration: 0.8
   Timer: {fileID: 1125467450}
@@ -1726,6 +1754,9 @@ MonoBehaviour:
   OnGestureDetected:
     m_PersistentCalls:
       m_Calls: []
+  OnGestureTerminated:
+    m_PersistentCalls:
+      m_Calls: []
   pinchAndHold: {fileID: 999771081}
 --- !u!114 &1258999823
 MonoBehaviour:
@@ -1758,7 +1789,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1294302726
 Transform:
   m_ObjectHideFlags: 0
@@ -1886,6 +1917,9 @@ MonoBehaviour:
   FeatureUsed: 0
   Handedness: 2
   OnGestureDetected:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGestureTerminated:
     m_PersistentCalls:
       m_Calls: []
   LeftToRight:
@@ -2189,7 +2223,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1460526759
 Transform:
   m_ObjectHideFlags: 0
@@ -2267,6 +2301,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsDetecting: 0
   DynamicGesture: {fileID: 1399079053}
+  OnGestureDetected:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGestureTerminated:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1588404558
 GameObject:
   m_ObjectHideFlags: 0
@@ -2283,7 +2323,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1588404559
 Transform:
   m_ObjectHideFlags: 0
@@ -2314,6 +2354,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsDetecting: 0
   DynamicGesture: {fileID: 307642195}
+  OnGestureDetected:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGestureTerminated:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1654552413
 GameObject:
   m_ObjectHideFlags: 0
