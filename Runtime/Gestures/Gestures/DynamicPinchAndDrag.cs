@@ -20,7 +20,6 @@ public class DynamicPinchAndDrag : DynamicGesture
 
     public override bool DetectGesture(GestureFeatureData featureData)
     {
-        Debug.Log(isDragging);
         if (isDragging)
         {
             XRHandSnapshot lastHandData = GestureData.RequestLastUpdateHandData(Handedness);

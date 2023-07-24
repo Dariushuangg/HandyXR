@@ -151,6 +151,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1768829816}
   - {fileID: 460429663}
   - {fileID: 1460526759}
   - {fileID: 1542713242}
@@ -862,7 +863,7 @@ Transform:
   m_Children:
   - {fileID: 1258999821}
   m_Father: {fileID: 20431459}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &313737928
 MonoBehaviour:
@@ -1010,7 +1011,7 @@ Transform:
   m_Children:
   - {fileID: 1783409500}
   m_Father: {fileID: 20431459}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &460429664
 MonoBehaviour:
@@ -1057,7 +1058,7 @@ Transform:
   m_Children:
   - {fileID: 1125467449}
   m_Father: {fileID: 20431459}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &570788788
 MonoBehaviour:
@@ -1104,7 +1105,7 @@ Transform:
   m_Children:
   - {fileID: 999771080}
   m_Father: {fileID: 20431459}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &725358638
 MonoBehaviour:
@@ -1151,6 +1152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Features: {fileID: 105563694}
   GestureDetectors:
+  - {fileID: 1768829817}
   - {fileID: 460429664}
   - {fileID: 1460526760}
   - {fileID: 1542713243}
@@ -1428,6 +1430,55 @@ Transform:
   m_Father: {fileID: 1085439597}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &989156135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 989156136}
+  - component: {fileID: 989156137}
+  m_Layer: 0
+  m_Name: Static Grab Gesture
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &989156136
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989156135}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1768829816}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &989156137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989156135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c780e526bb1c4b4e868efd2c98702bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FeatureUsed: 0
+  Handedness: 2
+  OnGestureDetected:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &999771079
 GameObject:
   m_ObjectHideFlags: 0
@@ -1723,7 +1774,7 @@ Transform:
   m_Children:
   - {fileID: 1738257241}
   m_Father: {fileID: 20431459}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1294302727
 MonoBehaviour:
@@ -2154,7 +2205,7 @@ Transform:
   m_Children:
   - {fileID: 1299885801}
   m_Father: {fileID: 20431459}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1460526760
 MonoBehaviour:
@@ -2201,7 +2252,7 @@ Transform:
   m_Children:
   - {fileID: 1399079052}
   m_Father: {fileID: 20431459}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1542713243
 MonoBehaviour:
@@ -2248,7 +2299,7 @@ Transform:
   m_Children:
   - {fileID: 307642193}
   m_Father: {fileID: 20431459}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1588404560
 MonoBehaviour:
@@ -2490,6 +2541,53 @@ MonoBehaviour:
       m_Calls: []
   pinchInterval: 0.4
   minPinchSpeed: 0.2
+--- !u!1 &1768829815
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1768829816}
+  - component: {fileID: 1768829817}
+  m_Layer: 0
+  m_Name: Static Grab Detector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1768829816
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768829815}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 989156136}
+  m_Father: {fileID: 20431459}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1768829817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768829815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc4d76c5b8105d42922e2100418db4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsDetecting: 0
+  StaticGesture: {fileID: 989156137}
 --- !u!1 &1783409499
 GameObject:
   m_ObjectHideFlags: 0
@@ -2687,6 +2785,8 @@ GameObject:
   - component: {fileID: 1963554570}
   - component: {fileID: 1963554569}
   - component: {fileID: 1963554568}
+  - component: {fileID: 1963554572}
+  - component: {fileID: 1963554571}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -2772,6 +2872,32 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1963554566}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1963554571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963554566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1dbdecb91f9d7045a00d6f54e18e05b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1963554572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963554566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea217f305f699b84e9bee4771f58b11d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultMat: {fileID: 2100000, guid: 6d015d56a074641489bb563931ecc5e6, type: 2}
+  resetTimer: {fileID: 1963554571}
 --- !u!1 &2137699638
 GameObject:
   m_ObjectHideFlags: 0
